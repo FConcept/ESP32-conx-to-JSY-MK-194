@@ -3,7 +3,9 @@ ESP32C++ code to connect and test connexion to JSY-MK-194 power data mesurement 
 
 France - Bordeaux 7 Mars 2024 
 
-V0 but tested !
+I created this code because I couldn't find anything on the Internet that was reasonably safe and efficient, even with an AI (until now...).
+
+This code adds CRC check, correct slave number in the answer frame (if you need to connect several Modbus modules) and a frame timeout which allows you to scan as fast as you need without scan delay.
 
 
 see below for shakespeare's langage
