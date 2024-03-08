@@ -3,11 +3,13 @@ ESP32C++ code to connect and test connexion to JSY-MK-194 power data mesurement 
 
 France - Bordeaux 7 Mars 2024 
 
+I use this module to manage and monitor the solar production of the photovoltaic panels and the consumption of the house to optimize consumption from the grid by automating electrical equipment.
+
+![Module JSY-MK-194](https://github.com/FConcept/ESP32-conx-to-JSY-MK-194/assets/162559707/e75c30aa-8ede-4234-940e-7e2be72e4d45)
+
 I created this code because I couldn't find anything on the Internet that was reasonably safe and efficient, even with an AI (until now...).
 
 This code adds CRC check, correct slave number in the answer frame (if you need to connect several Modbus modules) and a frame timeout which allows you to scan as fast as you need without scan delay.
-
-
 see below for shakespeare's langage
 
 Dev ESP32 connecté au module JSY-MK-194R par le port UART2 en utilisant le protocole MODBUS RTU
